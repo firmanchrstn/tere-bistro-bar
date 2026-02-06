@@ -11,7 +11,6 @@ function raf(time) {
 }
 requestAnimationFrame(raf);
 
-// Integrate Lenis & GSAP
 gsap.registerPlugin(ScrollTrigger);
 lenis.on('scroll', ScrollTrigger.update);
 gsap.ticker.add((time) => {
@@ -45,7 +44,6 @@ if(menuBtn && navOverlay) {
 
     navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
-            // Check if link is anchor on same page
             const href = link.getAttribute('href');
             if(href.startsWith('#')) {
                 e.preventDefault();
