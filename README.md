@@ -47,8 +47,12 @@ This project is a modern, responsive website built with a focus on **Cinematic L
 ```text
 /terre-bistro-website
 │
-├── index.html          # Main landing page (Story, Menu, Reviews)
-├── amenities.html      # Facilities page (Bento Grid layout)
-├── style.css           # Global styles, animations, and responsive design
-├── script.js           # GSAP animations, Lenis scroll logic, and interactions
-└── README.md           # Project documentation
+├── index.html            # Main landing page
+├── amenities.html        # Facilities & Info page
+├── README.md             # Documentation
+│
+└── assets/               # Project Assets
+    ├── css/
+    │   └── style.css     # Global styles & animations
+    └── js/
+        └── script.js     # GSAP logic & interactions
