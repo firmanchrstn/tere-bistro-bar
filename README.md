@@ -1,4 +1,4 @@
-# 🍷 Terre Bistro & Bar - Cinematic Web Experience
+# Terre Bistro & Bar - Cinematic Web Experience
 
 ![Project Banner](https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1200&auto=format&fit=crop)
 
