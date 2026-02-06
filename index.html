@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terre Bistro & Bar Cikarang - Premium Steaks, Indonesian Fusion, Live Music.">
+    <title>Terre Bistro & Bar | Cinematic Experience</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="noise-overlay"></div>
+
+    <div class="nav-overlay">
+        <div class="nav-close">Close</div>
+        <div class="nav-content">
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-item">Home <span class="nav-num">01</span></a></li>
+                <li><a href="#story" class="nav-item">The Story <span class="nav-num">02</span></a></li>
+                <li><a href="#menu" class="nav-item">Signature Menu <span class="nav-num">03</span></a></li>
+                <li><a href="amenities.html" class="nav-item">Amenities & Info <span class="nav-num">04</span></a></li>
+                <li><a href="#reviews" class="nav-item">Reviews <span class="nav-num">05</span></a></li>
+                <li><a href="#contact" class="nav-item">Reserve Table <span class="nav-num">06</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="brand">TERRE.</div>
+        <div class="nav-right">
+            <div class="menu-btn">Menu</div>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2560&auto=format&fit=crop" alt="Ambience" class="hero-img">
+        </div>
+        <div class="container hero-content">
+            <div class="rating-badge"><i class="fas fa-star"></i> 4.4 (886+ Reviews)</div>
+            <span class="overline">Jababeka, Cikarang</span>
+            <h1 class="text-huge">
+                <div class="word-mask"><span>Cozy Vibes.</span></div><br>
+                <div class="word-mask"><span class="text-gold">Exquisite Taste.</span></div>
+            </h1>
+        </div>
+        <div class="hero-footer">
+            <div>Open Daily: 10.00 AM - Late</div>
+            <div>Scroll to Explore</div>
+        </div>
+    </section>
+
+    <div class="horizontal-wrapper" id="story">
+        <div class="horizontal-container">
+            <section class="panel">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1920" class="panel-img" alt="Interior">
+                <div class="panel-content">
+                    <span class="panel-num">01</span>
+                    <h2 class="text-xl mb-4">The Atmosphere</h2>
+                    <p class="text-lg">Ranked as one of the coziest spots in Jababeka. Rustic modern furniture, dim lighting, and <strong>Live Music</strong> on Friday nights.</p>
+                </div>
+            </section>
+            <section class="panel">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1920" class="panel-img" alt="VIP Room">
+                <div class="panel-content">
+                    <span class="panel-num">02</span>
+                    <h2 class="text-xl mb-4 text-gold">VIP & Events</h2>
+                    <p class="text-lg">Need privacy? We offer <strong>VIP Private Rooms</strong> suitable for business meetings, anniversaries, or family gatherings.</p>
+                </div>
+            </section>
+            <section class="panel">
+                 <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1920" class="panel-img" alt="Fusion Food">
+                <div class="panel-content">
+                    <span class="panel-num">03</span>
+                    <h2 class="text-xl mb-4">Fusion Dining</h2>
+                    <p class="text-lg">From Charcoal Grill Steaks and Pizza to authentic Soto Betawi. Complemented by a full bar serving cocktails and wine.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section class="menu-section" id="menu">
+        <div class="menu-bg-container">
+            <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=1600" class="menu-bg-img" id="img-steak">
+            <img src="https://images.unsplash.com/photo-1467003909585-2f8a7270028d?w=1600" class="menu-bg-img" id="img-salmon">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1600" class="menu-bg-img" id="img-pizza">
+            <img src="https://images.unsplash.com/photo-1572656631137-7935297eff55?w=1600" class="menu-bg-img" id="img-soto">
+            <img src="https://images.unsplash.com/photo-1579202673506-ca3ce28943ef?w=1600" class="menu-bg-img" id="img-fnc">
+        </div>
+        <div class="container">
+            <span class="overline">Guest Favorites</span>
+            <h2 class="text-xl">Signature Menu</h2>
+            <div class="menu-list">
+                <div class="menu-item" data-img="img-steak">
+                    <div class="item-info"><span class="item-name">Tenderloin Steak</span><span class="item-desc">Charcoal grilled, mushroom sauce.</span></div><span class="item-price">$$</span>
+                </div>
+                <div class="menu-item" data-img="img-salmon">
+                    <div class="item-info"><span class="item-name">Salmon Teriyaki</span><span class="item-desc">Pan-seared, house glaze.</span></div><span class="item-price">$$</span>
+                </div>
+                <div class="menu-item" data-img="img-pizza">
+                     <div class="item-info"><span class="item-name">Fantastic 4 Cheese Pizza</span><span class="item-desc">Thin crust Italian style.</span></div><span class="item-price">$$</span>
+                </div>
+                 <div class="menu-item" data-img="img-soto">
+                    <div class="item-info"><span class="item-name">Soto Betawi</span><span class="item-desc">Authentic creamy beef soup.</span></div><span class="item-price">$$</span>
+                </div>
+                <div class="menu-item" data-img="img-fnc">
+                    <div class="item-info"><span class="item-name">Fish and Chips</span><span class="item-desc">Classic crispy dory.</span></div><span class="item-price">$$</span>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <span class="overline">What People Say</span>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Wah, puas banget makan di sini! Rasanya juara, tempatnya bersih. Pelayanan bintang lima!"</p>
+                    <div class="reviewer">— Shinta Kumalasari</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Venue favorit untuk rayain hari spesial! Food, Service, Atmosphere: 5/5."</p>
+                    <div class="reviewer">— Lidya Shafdina</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Tempat nyaman, ada live music. Bisa banget meeting di sini karena ada VIP room."</p>
+                    <div class="reviewer">— Andriawan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <span class="footer-brand">TERRE.</span>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Visit Us</h4>
+                    <p>Jalan Benyamin Sueb Blk. B No.1,<br>Mekarmukti, Cikarang Utara</p>
+                    <a href="#" class="map-link">Get Directions <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>0812-9896-8742</p>
+                    <p>Daily: 10.00 AM - Late</p>
+                </div>
+            </div>
+            <div class="copyright">© 2024 Terre Bistro & Bar.</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
